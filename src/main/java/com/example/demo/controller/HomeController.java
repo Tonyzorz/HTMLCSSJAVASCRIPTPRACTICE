@@ -14,4 +14,9 @@ public class HomeController {
 	public String testing1() {
 		return "/testing1";
 	}
+	
+	@RequestMapping("/yahooMini")
+	public String yahooMini() {
+		return "yahooMini";
+	}
 }
