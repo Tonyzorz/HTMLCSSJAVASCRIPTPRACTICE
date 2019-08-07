@@ -28,4 +28,8 @@ public class HomeController {
 	public String sixteenthHTML() {
 		return "sixteenthHTML";
 	}
+	@RequestMapping("/seventeenthhtml")
+	public String seventeenthhtml() {
+		return "seventeenthhtml";
+	}
 }
