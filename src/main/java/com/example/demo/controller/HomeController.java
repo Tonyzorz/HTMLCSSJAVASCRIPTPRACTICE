@@ -19,4 +19,13 @@ public class HomeController {
 	public String yahooMini() {
 		return "yahooMini";
 	}
+	
+	@RequestMapping("/practicing")
+	public String practicing() {
+		return "practicing";
+	}
+	@RequestMapping("/sixteenthHTML")
+	public String sixteenthHTML() {
+		return "sixteenthHTML";
+	}
 }
